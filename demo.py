@@ -19,7 +19,7 @@ from lib.config import cfg, cfg_from_list
 from lib.solver import Solver
 from lib.voxel import voxel2obj
 
-DEFAULT_WEIGHTS = 'output/ResidualGRUNet/default_model/weights.npy'
+DEFAULT_WEIGHTS = 'output/ResidualGRUNet/default_model/ResidualGRUNet.npy'
 
 
 def cmd_exists(cmd):
